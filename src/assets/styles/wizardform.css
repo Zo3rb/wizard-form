@@ -1,0 +1,58 @@
+body {
+  background-color: #f4f4f4;
+}
+
+/* Customized Styles for The Form Section */
+.wizard-wrapper {
+  padding-top: 70px;
+}
+
+.inputs-container {
+  background-color: #fff;
+  border: solid 1px gray;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.step-header {
+  margin-top: 40px !important;
+}
+
+.input-field,
+.input-group,
+.input-group-equal {
+  margin: 10px 0 !important;
+}
+
+.input-group,
+.input-group-equal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group > div {
+  width: 48% !important;
+  margin-right: 2%;
+}
+
+.input-group-equal > div {
+  width: 49% !important;
+}
+
+.content-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.PhoneInputCountry input[type="tel"] {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
